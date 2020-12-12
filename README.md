@@ -26,3 +26,9 @@ How to run the code:-
 3. Trigger the API using postman by sending a request in the form of JSON as:- `{"search_q":"cricket"}`
 4. Then send a request to `127.0.0.1:800/vid_req` using POSTMAN
 
+Eg:- 
+
+![](https://github.com/dubesar/Ytb-latest-Vids-Cron/blob/main/picture.PNG?raw=true)
+
+5. Now send another request with data field as none and to `127.0.0.1:800/qdb_req` and you will get all the data collected in the json form
+6. The second request can be sent any time while the api is running.
