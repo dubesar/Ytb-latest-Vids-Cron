@@ -19,3 +19,10 @@ Approach:-
 
 * The api is somewhat optimized in the sense that it doesn't call redundant data and can't comment on scalability as the API can be made more faster if other DB is used than TinyDB but tinydb has access time very fast
 
+How to run the code:- 
+
+1. First put in the API key as a placeholder in the file `api_test.py`
+2. Then run api_test.py as `python3 api_test.py`
+3. Trigger the API using postman by sending a request in the form of JSON as:- `{"search_q":"cricket"}`
+4. Then send a request to `127.0.0.1:800/vid_req` using POSTMAN
+
