@@ -1,6 +1,8 @@
 # Ytb-latest-Vids-Cron
 An Api that can fetch the latest videos on Youtube for each 10 sec for a particular given keyword
 
+Options:- This same stuff can be done using Node/ExpressJS and FASTAPI and Flask, I have opted for Flask due to short time available. (Finished off all stuff in two hours with API tesing and all other stuffs, got late due to some issues in getting the asynchronous manner of code as Python natively doesn't support asynchronous unless Async IO is used)
+
 * Problem Statement / Tasks:- 
 
 - [x] Server should call the YouTube API continuously in background (async) with some interval (say 10 seconds) for fetching the latest videos for a predefined search query and should store the data of vid eos (specifically these fields - Video title, description, publishing datetime, thumbnails URLs and any other fields you require) in a database with proper indexes.
@@ -32,3 +34,6 @@ Eg:-
 
 5. Now send another request with data field as none and to `127.0.0.1:800/qdb_req` and you will get all the data collected in the json form
 6. The second request can be sent any time while the api is running.
+
+
+
