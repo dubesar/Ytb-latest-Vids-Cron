@@ -11,6 +11,7 @@ Options:- This same stuff can be done using Node/ExpressJS and FASTAPI and Flask
 
 - [ ] It should be scalable and optimized 
 
+First get all the requirements:- `pip3 install -r requirements.txt`
 
 Approach:- 
 
