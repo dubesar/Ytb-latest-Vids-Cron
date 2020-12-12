@@ -35,7 +35,7 @@ def latestVideoYtb():
             part="snippet",
             maxResults=25,
             publishedAfter=publishTime,
-            q='cricket'
+            q=search_q
         )
         response = request.execute()
 
